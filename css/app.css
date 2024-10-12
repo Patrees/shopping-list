@@ -1,0 +1,113 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+/* Horná navigácia */
+.navbar {
+    background-color: #0078d4;
+    color: white;
+    padding: 0.625rem 1.25rem; 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar h1 {
+    margin: 0;
+    font-size: 1.5rem; 
+}
+
+.navbar input[type="text"] {
+    padding: 0.3125rem; 
+    font-size: 1rem; 
+}
+
+.navbar-icons {
+    display: flex;
+    gap: 0.625rem; 
+}
+
+.navbar-icons div {
+    background-color: white;
+    border-radius: 50%;
+    width: 1.875rem; 
+    height: 1.875rem; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #0078d4;
+}
+
+/* Bočný panel (ľavý panel) */
+.sidebar {
+    width: 15.625rem; 
+    background-color: #ffffff;
+    padding: 0.9375rem; 
+    box-shadow: 0 0 0.625rem rgba(0,0,0,0.1);
+    position: fixed;
+    height: 100%;
+}
+
+.sidebar h2 {
+    font-size: 1.125rem; 
+    color: #333;
+}
+
+.sidebar input[type="text"] {
+    padding: 0.3125rem; 
+    font-size: 1rem; 
+    width: 100%;
+    margin-bottom: 0.625rem; 
+}
+
+.sidebar input[type="number"] {
+    padding: 0.3125rem; 
+    font-size: 1rem; 
+    width: 100%;
+    margin-bottom: 0.625rem; 
+}
+
+.sidebar button {
+    padding: 0.3125rem; 
+    font-size: 1rem; 
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Hlavný obsah (pravý panel) */
+.main-content {
+    margin-left: 17.5rem; 
+    padding: 1.25rem; 
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1.25rem;
+}
+
+.main-content h2 {
+    font-size: 1.25rem; 
+}
+
+/* Karty (obsah webov) */
+
+
+.card {
+    background-color: white;
+    padding: 0.9375rem; 
+    box-shadow: 0 0 0.625rem rgba(0,0,0,0.1); 
+}
+
+.card h3 {
+    margin: 0;
+    font-size: 1.125rem; 
+    color: #333;
+}
+
+.card p {
+    margin: 0.625rem 0;
+    color: #666;
+}
