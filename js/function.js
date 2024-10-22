@@ -1,5 +1,5 @@
 import {
-fetchShoppingLists
+    initializeShoppingList
 
 
 } from "./database.js";
@@ -38,7 +38,7 @@ function submitForm(event) {
 
 button.addEventListener("click", submitForm);
 
-fetchShoppingLists()
+initializeShoppingList()
 
 
 });
