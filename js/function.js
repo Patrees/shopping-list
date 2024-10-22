@@ -17,12 +17,10 @@ function createBuyingListElement(item) {
     buyingList.appendChild(newBuyingItem);
 }
 
-
-
-/**
- * Odošle formulaire a vytvorí nový prvok v sekcii "Kúpiť"
- * @param {Event} event - udalosť klávesnice
- */
+    /**
+     * Odošle formulaire a vytvorí nový prvok v sekcii "Kúpiť"
+     * @param {Event} event - udalosť klávesnice
+     */
 function submitForm(event) {
     event.preventDefault();
     let itemNameValue = document.getElementById("item-name").value.trim();
