@@ -1,3 +1,9 @@
+import {
+fetchShoppingLists
+
+
+} from "./database.js";
+
 window.addEventListener("load", function () {
     const button = document.querySelector("button[type='submit']");
     const form = document.querySelector("form");
@@ -31,5 +37,8 @@ function submitForm(event) {
 }
 
 button.addEventListener("click", submitForm);
+
+fetchShoppingLists()
+
 
 });
